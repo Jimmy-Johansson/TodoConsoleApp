@@ -9,6 +9,12 @@ namespace TodoApp
         {
             TodoManager todoManager = new TodoManager();
 
+            Console.WriteLine("TO DO MANAGER");
+            Console.WriteLine("Easy breasy to plan your full day!");
+            Console.Write("(Press any key to continue.)");
+            Console.ReadKey();
+            Console.Clear();
+
             //Test-code, add user interface here later
             todoManager.AddTodoItem("Rasta hunden");
             todoManager.AddTodoItem("Rasta den andra hunden");
